@@ -3,66 +3,83 @@
 body{
     font-family: 'Rampart One', cursive;
     background-color: burlywood;
-}
+    background-image: linear-gradient( rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205) ), url('doge.webp');
+    }
 
 .hero{
     padding:1rem 1rem;
     margin:auto;
-    width :600px;
+    width :800px;
     text-align: center;
     border-color: black;
-    border-style:dotted;
-
+    border-style:outset;
+    font-size: 250%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: orange;
+    
 }
 
 #txt-input{
-    display: block;
-    text-align:center;
-    margin:auto;
-    border-style:solid;
-    width:80%;
+
+    width:600px;
     height:10vh;
-    border-color: black;;
-    padding:1rem 1rem;
+    display: block;
+    padding:1rem ;
+    margin:auto;
     text-align:center;
+    border-style:solid;
+    border-color: black;;
     border-color:black;
     border-radius: 1rem;
     border-width:0.2rem;
-    background-color: transparent;
+    background-color: lightgoldenrodyellow;
+   
+    font-weight: bold;
+ 
     
 }
 
 #btn-translate{
     margin: 0;
-    position: absolute;
-    top: 50%;
+    position:absolute;
+    top: 42%;
     left: 50%;
+    
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
-    
-    border-style:double;
     border-color:coral;
     padding:1rem;
+    border-width:0.5rem;
     border-radius:1rem;
     font-weight:bold;
+    font-size:100%;
 }
 
 #output-text{
+    width:600px;
     text-align:center;
     margin:auto;
-    border-style:double;
-    border-color:coral;
+    border-style:solid;
+    border-color:black;
+    background-color: rgb(127, 158, 216);
     border-radius:1rem;
     padding:0.5rem 1rem;
-    width:600px;
+   text-shadow: 50px;
+   font-weight: bold;
+   font-size: x-large;
+   
 }
+
 #output{
     text-align:center;
     margin:auto;
-    border-style:double;
-    border-color:blueviolet;
+    border-style:solid;
+    border-color:black;
     border-radius:1rem;
     padding:4rem 1rem;
     width:600px;
+    font-weight:bold;
+    font-size:x-large;
+    background-color:lightgoldenrodyellow;
 }
